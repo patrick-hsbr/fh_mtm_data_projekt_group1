@@ -1,6 +1,3 @@
-Here's the formatted Git README with code blocks:
-
-```markdown
 # FH MTM Data Project Group 1
 **Computergestützte Datenanalyse 2B - Group 1**
 
@@ -26,4 +23,3 @@ Here's the formatted Git README with code blocks:
      - Your dataset.
      - Calculations (as Jupyter Notebooks).
      - The summary report (as PDF).
-```
