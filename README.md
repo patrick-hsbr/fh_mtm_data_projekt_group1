@@ -12,6 +12,7 @@
 
 2. **Data Preprocessing**
     - Handle Missing Values
+
         Decide on a strategy to handle missing data, such as filling with mean/median or dropping rows/columns with significant missing values.
 
         - Remove rows with null values in specific columns - ['Courier Status', 'currency', 'Amount', 'ship-city', 'ship-state', 'ship-postal-code', 'ship-country']
@@ -19,6 +20,7 @@
         - Remove columns with only one values - ['Sales Channel ', 'currency', 'ship-country']
 
     - Data Cleaning
+
         Convert data types where necessary (e.g., Date column to datetime type).
 
         - Convert the date an order into date format
@@ -32,6 +34,7 @@
         - Change the B2B information into bool as the values are either false or true
 
     - Feature Engineering
+    
         Create new features if necessary, such as extracting month or year from the Date column.
 
         - Day of the Week and Sepeation of Year & Month
